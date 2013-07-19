@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("clasesProyecto")> 
+<Assembly: AssemblyTitle("Preanu")> 
 <Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("casa")> 
-<Assembly: AssemblyProduct("clasesProyecto")> 
-<Assembly: AssemblyCopyright("Copyright © casa 2013")> 
+<Assembly: AssemblyCompany("")> 
+<Assembly: AssemblyProduct("Preanu")> 
+<Assembly: AssemblyCopyright("Copyright ©  2013")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("b416a9c8-fcac-4cff-8608-39de1b5638d4")> 
+<Assembly: Guid("e8595cf4-c3fc-4950-b3f7-aac7d91d76b6")> 
 
 ' Version information for an assembly consists of the following four values:
 '

@@ -6,11 +6,11 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{50C54793-B2B7-4FDB-B9D5-FEBA3FAD3762}</ProjectGuid>
+    <ProjectGuid>{68ACAAA9-5B29-436D-A9A2-42DCA179CAD1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>clasesProyecto.My.MyApplication</StartupObject>
-    <RootNamespace>clasesProyecto</RootNamespace>
-    <AssemblyName>clasesProyecto</AssemblyName>
+    <StartupObject>Preanu.My.MyApplication</StartupObject>
+    <RootNamespace>Preanu</RootNamespace>
+    <AssemblyName>Preanu</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
@@ -23,7 +23,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>clasesProyecto.xml</DocumentationFile>
+    <DocumentationFile>Preanu.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
@@ -33,7 +33,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>clasesProyecto.xml</DocumentationFile>
+    <DocumentationFile>Preanu.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -72,32 +72,13 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Acceso a Datos\CitasAD.vb" />
-    <Compile Include="Acceso a Datos\PostConsultasAD.vb" />
-    <Compile Include="Acceso a Datos\ServicioGrupalAD.vb" />
-    <Compile Include="Acceso a Datos\ServicioIndividualAD.vb" />
-    <Compile Include="Acceso a Datos\TalleresAD.vb" />
-    <Compile Include="Acceso a Datos\UsuariosAD.vb" />
-    <Compile Include="Entidades\CitasEN.vb" />
-    <Compile Include="Entidades\PersonaEN.vb" />
-    <Compile Include="Entidades\PostConsultasEN.vb" />
-    <Compile Include="Entidades\ServicioGrupalEN.vb" />
-    <Compile Include="Entidades\ServicioIndividualEN.vb" />
-    <Compile Include="Entidades\TalleresEN.vb" />
-    <Compile Include="Entidades\UsuariosEN.vb" />
-    <Compile Include="Presentacion\Form1.vb">
+    <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentacion\Form1.Designer.vb">
+    <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Logica de Negocios\CitasLN.vb" />
-    <Compile Include="Logica de Negocios\PostConsultasLN.vb" />
-    <Compile Include="Logica de Negocios\ServivioGrupalLN.vb" />
-    <Compile Include="Logica de Negocios\SevicioIndividualLN.vb" />
-    <Compile Include="Logica de Negocios\TalleresLN.vb" />
-    <Compile Include="Logica de Negocios\UsuariosLN.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -133,7 +114,6 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
